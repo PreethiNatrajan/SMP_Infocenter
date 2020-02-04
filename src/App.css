@@ -1,0 +1,348 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+/* smaller screens
+ --------------------------------------------------------------- */
+ @media only screen and (max-width: 00px) {
+ 
+  /* block grids on small screens */
+  .s-bgrid-sixths [class*="column"]   { width: 16.66667%; }
+  .s-bgrid-quarters [class*="column"] { width: 25%; }
+  .s-bgrid-thirds [class*="column"]   { width: 33.33333%; }
+  .s-bgrid-halves [class*="column"]   { width: 50%; }
+
+  /* block grids left clearing */
+  .first { clear: none; }
+  .s-first { clear: left; }
+
+}
+
+
+
+/* mobile narrow
+--------------------------------------------------------------- */
+@media only screen and (max-width: 460px) {
+
+  .row { width: auto; }
+
+}
+
+/* larger screens
+--------------------------------------------------------------- */
+@media screen and (min-width: 1200px) {
+
+  .wide .row { max-width: 1180px; }
+
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.Overlay{
+  margin-top: 0.5cm;
+  width: 1100px;
+}
+.Model{
+  margin-top: 0.5cm;
+  width: 1100px;
+}
+/* .Overlay img{
+  width: 900px;
+} */
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+p{
+  margin-left: 1cm;
+}
+img{
+  margin-left: 1cm;
+}
+h1,h2,h3,h4,h5,h6{
+  margin-left: 0.5cm;
+  color: ;
+}
+
+.nav_bar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-image: url("components\images\image3.jpg");
+}
+
+.navUlStyle{
+  display: flex;
+  align-items: center;
+  padding: 0 4rem;
+}
+.logo a{
+  text-decoration: none;
+  color: white;
+  font-size: 1cm;
+  font-weight: bold;
+ 
+}
+.logo{
+  display: flex;
+  margin-left: 1rem;
+  
+}
+.spacer{
+  flex: 1;
+}
+.navLiStyle ul{
+  list-style-type: none;
+  text-decoration: none;
+  display: flex;
+  padding: 0 0.5rem;
+}
+.navLiStyle li{
+  padding: 0 0.5rem;
+}
+.navLiStyle a:link{
+  color: white;
+}
+.navLiStyle a:visited{
+  color: whitesmoke;
+}
+.navLiStyle a:hover{
+  color: red;
+}
+.navLiStyle a:active{
+  color: red;
+}
+.toggle_button{
+  height: 24px;
+  width: 36px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  justify-content: space-around;
+}
+.toggle_button:focus{
+  outline: none;
+}
+.toggle_button_line{
+  width: 30px;
+  height: 2px;
+  background: white;
+}
+.Side_drawer{
+  height: 100%;
+  /* background-color: white; */
+  box-shadow: 2px 0 5px rgba(0,0,0,0.5);
+  position: fixed;
+  top: 1.5cm;
+  left: 0;
+  width: 400px;
+  display: flex;
+}
+.side{
+  display: flex;
+}
+.SideBar {
+  max-height: 100%;
+  overflow-y: auto;
+  
+  list-style-type: none;
+  text-decoration: none;
+
+  
+}
+
+.SideBar Link:link{
+  
+  list-style-type: none;
+  text-decoration: none;
+  
+}
+.SideBar Link:visited{
+  list-style-type: none;
+  text-decoration: none;
+  color: whitesmoke;
+}
+.SideBar Link:hover{
+  list-style-type: none;
+  text-decoration: none;
+  color: red;
+}
+.SideBar Link:active{
+  list-style-type: none;
+  text-decoration: none;
+  color: red;
+}
+.SideBar{
+  
+  list-style-type: none;
+  text-decoration: none;
+  top: 1cm;
+ 
+  height: 100%;
+  display: flex;
+}
+.SideBar a{
+  color: black;
+  font-weight: bold;
+  list-style-type: none;
+  /* text-shadow: blue; */
+  text-decoration: none;
+  
+}
+.SideBar Link{
+  list-style-type: none;
+  text-decoration: none;
+}
+.SMP7{
+  left: 10cm;
+}
+
+.root{
+  top: 1cm;
+  width: 300px;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  
+  
+}
+
+.sample{
+  display: flex;
+}
+.home{
+  /* margin-left: 10cm; */
+  padding: 1cm;
+  display: block;
+  width: 100%;
+  
+}
+#Config_Manager{
+  margin-top: 1.5cm;
+}
+#Model{
+  float: none;
+}
+/* #Overlay{
+  float: none;
+} */
+.nested{
+  display: flex;
+}
+
+#Components{
+  float: none;
+}
+#OptionSets{
+  float: none;
+}
+#Relationships{
+  float: none;
+}
+#ModelTemplates{
+  float: none;
+}
+#PropertyTemplates{
+  float:none;
+}
+#Checks{
+  float: none;
+}
+#Actions{
+  float: none;
+}
+#Global{
+  float:none;
+
+}
+#Upload_New_Configuration{
+  float: none;
+  margin-left: 0.5cm;
+}
+#Application_Properties{
+  float: none;
+  margin-left: 0.5cm;
+}
+#Role_Based_Properties{
+  float: none;
+  margin-left: 0.5cm;
+}
+#User_Input{
+  float: none;
+  margin-left: 0.5cm;
+}
+#Result_Analyses{
+  float: none;
+  margin-left: 0.5cm;
+}
+#Test_Module{
+  float: none;
+  margin-left: 0.5cm;
+  
+}
+div.Test_Module p{margin-left: 0.5cm;}
+
+#Endpoint_Operations{
+  float: none;
+  margin-left: 0.5cm;
+}
+#Workflow_Modules{
+  float: none;
+  margin-left: 0.5cm;
+}
+#Test_Group{
+  float: none;
+  margin-left: 0.5cm;
+}
+#Startup_Test_Group{
+  float: none;
+  margin-left: 0.5cm;
+}
+#Service_Policies{
+  float: none;
+  margin-left: 0.5cm;
+}
+#Resource_Files{
+  float: none;
+  margin-left: 0.5cm;
+}
+#DSAs{
+  float: none;
+  margin-left: 0.5cm;
+}
+.tier2 .collapse{
+  padding-left: 20px;
+}
+.right-container-list li{
+  margin-left: 0.5cm;
+
+}
