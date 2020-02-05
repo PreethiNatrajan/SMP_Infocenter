@@ -23,8 +23,16 @@ export class ModelBuilder extends Component {
                 
                 <p>The distinction between models and overlays allows you to keep the models of your business separate from the business logic, which you can store in overlays. Thus, changes can be made to the data aggregation and component modeling layers with minimal effect on the business logic. And you can create multiple overlays for a single model, making it easy to add new business processes.</p>
                 <p>Using Model Builder, you can create and maintain:</p>
+                <ul>
+                <li>Model</li>
+                <li>Components</li>
+                <li>Option Sets</li>
+                <li>Relationships</li>
+                <li>ModelTemplates</li>
+                <li>PropertyTemplates</li>
+                </ul>
                 <p>Model Builder will look like:</p>
-                <img width={1100} src={ModelBuilder3}/>               
+                <img width={1000} src={ModelBuilder3}/>               
                 
             </div>
             </div>

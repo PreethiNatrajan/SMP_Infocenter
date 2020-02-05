@@ -5,6 +5,7 @@ export class Endpoint_Operations extends Component {
     render() {
         return (
             <div id="Endpoint_Operations">
+            <div className="Endpoint">
                 <h3>Endpoint Operations</h3>
                 <p>Use the Endpoint Operations tab to add, edit, or remove endpoint operations. In the Configuration Manager, you cannot fully configure an endpoint operation without first developing its operation implementation. Afterward, you can associate the implementation's test module with the endpoint operation.</p>
                 
@@ -21,7 +22,7 @@ export class Endpoint_Operations extends Component {
                 <li>A test module that defines how to execute the modeling process</li>
                 </ul>
                 <p>For the implementation's corresponding endpoint operation, you select the test module in the Implementation Module drop-down list on the Properties tab. This selection determines which operation implementation SMP uses in response to validated client requests.</p>
-                
+                </div>
             </div>
         )
     }

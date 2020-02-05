@@ -24,10 +24,10 @@ function App() {
           <nav className="nav_bar" >
           
           <div className="navUlStyle">
-          <div>
-          {/*<ToggleButton/>*/}
-          </div>
-          <div className="logo"><a href="/"> SMP</a></div>
+          {/*<div>
+          <ToggleButton/>
+          </div>*/}
+          <div className="logo"><a href="/"> SMP Infocenter</a></div>
           <div className="spacer"></div>
           
           

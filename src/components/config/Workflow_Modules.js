@@ -5,6 +5,7 @@ export class Workflow_Modules extends Component {
     render() {
         return (
             <div id="Workflow_Modules">
+            <div className="Workflow_Modules">
                 <h3>Workflow Modules</h3>
                 <p>From the Application -> Workflow Modules interface, you can add, edit, or remove workflow modules. In the Configuration Manager, you cannot fully configure a workflow module until the applicable workflow is published. Workflows are authored and published from the Workflow Builder.</p>
                 <img src={Workflow}/>
@@ -13,6 +14,7 @@ export class Workflow_Modules extends Component {
                 <li>Which user roles are permitted to use the module</li>
                 <li>Any metadata attributes for providing additional information to client users</li>
                 </ul>
+                </div>
             </div>
         )
     }

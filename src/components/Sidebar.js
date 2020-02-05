@@ -30,11 +30,17 @@ export class Sidebar extends Component {
             smp7: false,
             smp18: false,
             smp19: false,
-            applicationConfig: false,
+            smp7applicationConfig: false,
+            smp18applicationConfig: false,
+            smp19applicationConfig: false,
             overlayBuilder: false,
             modelBuilder: false,
-            configManager: false,
-            workflowBuilder: false
+            smp7configManager: false,
+            smp18configManager: false,
+            smp19configManager: false,
+            smp7workflowBuilder: false,
+            smp18workflowBuilder: false,
+            smp19workflowBuilder: false,
     }
     
     }
@@ -85,24 +91,24 @@ export class Sidebar extends Component {
                         <ListItem><Link to={'/Global'}>Global</Link></ListItem>
                       </List>     
                     </Collapse>
-                    <ListItem onClick={this.handleClick.bind(this, 'configManager')}><Link to='/Config_Manager'>Configurartion Manager</Link></ListItem>
-                    <Collapse className="collapse" in={this.state.configManager}>
+                    <ListItem onClick={this.handleClick.bind(this, 'smp7configManager')}><Link to='/Config_Manager'>Configurartion Manager</Link></ListItem>
+                    <Collapse className="collapse" in={this.state.smp7configManager}>
                       <List className="tier3">
-                        <ListItem onClick={this.handleClick.bind(this,'applicationConfig')}><Link to={"Application_Config"}>Application Configuration</Link></ListItem>
-                        <Collapse in={this.state.applicationConfig} className="collapse">
+                        <ListItem onClick={this.handleClick.bind(this,'smp7applicationConfig')}><Link to={"Application_Config"}>Application Configuration</Link></ListItem>
+                        <Collapse in={this.state.smp7applicationConfig} className="collapse">
                           <List>
                             <ListItem><Link to='/Upload_New_Configuration'>Upload New Configuration</Link></ListItem>
                             <ListItem><Link to='/Application_Properties'>Application Properties</Link></ListItem>
                             <ListItem><Link to='/Role_Based_Properties'>Role Based Properties</Link></ListItem>
-                            <ListItem><Link to='/User_Input'>User_Input</Link></ListItem>
-                            <ListItem><Link to='/Result_Analyses'>Result_Analyses</Link></ListItem>
-                            <ListItem><Link to='/Test_Module'>Test_Module</Link></ListItem>
-                            <ListItem><Link to='/Endpoint_Operations'>Endpoint_Operations</Link></ListItem>
-                            <ListItem><Link to='/Workflow_Modules'>Workflow_Modules</Link></ListItem>
-                            <ListItem><Link to='/Test_Group'>Test_Group</Link></ListItem>
-                            <ListItem><Link to='/Startup_Test_Group'>Startup_Test_Group</Link></ListItem>
-                            <ListItem><Link to='/Service_Policies'>Service_Policies</Link></ListItem>
-                            <ListItem><Link to='/Resource_Files'>Resource_Files</Link></ListItem>
+                            <ListItem><Link to='/User_Input'>User Input</Link></ListItem>
+                            <ListItem><Link to='/Result_Analyses'>Result Analyses</Link></ListItem>
+                            <ListItem><Link to='/Test_Module'>Test Module</Link></ListItem>
+                            <ListItem><Link to='/Endpoint_Operations'>Endpoint Operations</Link></ListItem>
+                            <ListItem><Link to='/Workflow_Modules'>Workflow Modules</Link></ListItem>
+                            <ListItem><Link to='/Test_Group'>Test Group</Link></ListItem>
+                            <ListItem><Link to='/Startup_Test_Group'>Startup Test Group</Link></ListItem>
+                            <ListItem><Link to='/Service_Policies'>Service Policies</Link></ListItem>
+                            <ListItem><Link to='/Resource_Files'>Resource Files</Link></ListItem>
                             <ListItem><Link to='/DSAs'>Extensions / DSAs</Link></ListItem>
                           </List>
                         </Collapse>
@@ -114,8 +120,8 @@ export class Sidebar extends Component {
                         <ListItem><Link to="Schedules">Schedules</Link></ListItem>
                       </List>
                     </Collapse>
-                    <ListItem onClick={this.handleClick.bind(this, 'workflowBuilder')}><Link to='/Workflow'>Workflow Builder</Link></ListItem>
-                    <Collapse in={this.state.workflowBuilder} className="collapse">
+                    <ListItem onClick={this.handleClick.bind(this, 'smp7workflowBuilder')}><Link to='/Workflow'>Workflow Builder</Link></ListItem>
+                    <Collapse in={this.state.smp7workflowBuilder} className="collapse">
                       <List>
                         <ListItem><Link to="/Business_Process">Business Process Workflow</Link></ListItem>
                         <ListItem><Link to="/Interactive_Procerss">Interactive Workflow</Link></ListItem>
@@ -134,24 +140,24 @@ export class Sidebar extends Component {
               <List className="tier1" component="div" disablePadding>
                 <ListItem button className="nested">
                   <List className="tier2">
-                    <ListItem onClick={this.handleClick.bind(this, 'configManager')}><Link to='/Config_Manager'>Configurartion Manager</Link></ListItem>
-                    <Collapse className="collapse" in={this.state.configManager}>
+                    <ListItem onClick={this.handleClick.bind(this, 'smp18configManager')}><Link to='/Config_Manager'>Configurartion Manager</Link></ListItem>
+                    <Collapse className="collapse" in={this.state.smp18configManager}>
                       <List className="tier3">
-                        <ListItem onClick={this.handleClick.bind(this,'applicationConfig')}><Link to={"Application_Config"}>Application Configuration</Link></ListItem>
-                        <Collapse in={this.state.applicationConfig} className="collapse">
+                        <ListItem onClick={this.handleClick.bind(this,'smp18applicationConfig')}><Link to={"Application_Config"}>Application Configuration</Link></ListItem>
+                        <Collapse in={this.state.smp18applicationConfig} className="collapse">
                           <List>
                             <ListItem><Link to='/Upload_New_Configuration'>Upload New Configuration</Link></ListItem>
                             <ListItem><Link to='/Application_Properties'>Application Properties</Link></ListItem>
                             <ListItem><Link to='/Role_Based_Properties'>Role Based Properties</Link></ListItem>
-                            <ListItem><Link to='/User_Input'>User_Input</Link></ListItem>
-                            <ListItem><Link to='/Result_Analyses'>Result_Analyses</Link></ListItem>
-                            <ListItem><Link to='/Test_Module'>Test_Module</Link></ListItem>
-                            <ListItem><Link to='/Endpoint_Operations'>Endpoint_Operations</Link></ListItem>
-                            <ListItem><Link to='/Workflow_Modules'>Workflow_Modules</Link></ListItem>
-                            <ListItem><Link to='/Test_Group'>Test_Group</Link></ListItem>
-                            <ListItem><Link to='/Startup_Test_Group'>Startup_Test_Group</Link></ListItem>
-                            <ListItem><Link to='/Service_Policies'>Service_Policies</Link></ListItem>
-                            <ListItem><Link to='/Resource_Files'>Resource_Files</Link></ListItem>
+                            <ListItem><Link to='/User_Input'>User Input</Link></ListItem>
+                            <ListItem><Link to='/Result_Analyses'>Result Analyses</Link></ListItem>
+                            <ListItem><Link to='/Test_Module'>Test Module</Link></ListItem>
+                            <ListItem><Link to='/Endpoint_Operations'>Endpoint Operations</Link></ListItem>
+                            <ListItem><Link to='/Workflow_Modules'>Workflow Modules</Link></ListItem>
+                            <ListItem><Link to='/Test_Group'>Test Group</Link></ListItem>
+                            <ListItem><Link to='/Startup_Test_Group'>Startup Test Group</Link></ListItem>
+                            <ListItem><Link to='/Service_Policies'>Service Policies</Link></ListItem>
+                            <ListItem><Link to='/Resource_Files'>Resource Files</Link></ListItem>
                             <ListItem><Link to='/DSAs'>Extensions / DSAs</Link></ListItem>
                           </List>
                         </Collapse>
@@ -163,8 +169,8 @@ export class Sidebar extends Component {
                         <ListItem><Link to="Schedules">Schedules</Link></ListItem>
                       </List>
                     </Collapse>
-                    <ListItem onClick={this.handleClick.bind(this, 'workflowBuilder')}><Link to='/Workflow'>Workflow Builder</Link></ListItem>
-                    <Collapse in={this.state.workflowBuilder} className="collapse">
+                    <ListItem onClick={this.handleClick.bind(this, 'smp18workflowBuilder')}><Link to='/Workflow'>Workflow Builder</Link></ListItem>
+                    <Collapse in={this.state.smp18workflowBuilder} className="collapse">
                       <List>
                         <ListItem><Link to="/Business_Process">Business Process Workflow</Link></ListItem>
                         <ListItem><Link to="/Interactive_Procerss">Interactive Workflow</Link></ListItem>
@@ -184,24 +190,24 @@ export class Sidebar extends Component {
               <List className="tier1" component="div" disablePadding>
                 <ListItem button className="nested">
                   <List className="tier2">
-                    <ListItem onClick={this.handleClick.bind(this, 'configManager')}><Link to='/Config_Manager'>Configurartion Manager</Link></ListItem>
-                    <Collapse className="collapse" in={this.state.configManager}>
+                    <ListItem onClick={this.handleClick.bind(this, 'smp19configManager')}><Link to='/Config_Manager'>Configurartion Manager</Link></ListItem>
+                    <Collapse className="collapse" in={this.state.smp19configManager}>
                       <List className="tier3">
-                        <ListItem onClick={this.handleClick.bind(this,'applicationConfig')}><Link to={"Application_Config"}>Application Configuration</Link></ListItem>
-                        <Collapse in={this.state.applicationConfig} className="collapse">
+                        <ListItem onClick={this.handleClick.bind(this,'smp19applicationConfig')}><Link to={"Application_Config"}>Application Configuration</Link></ListItem>
+                        <Collapse in={this.state.smp19applicationConfig} className="collapse">
                           <List>
                             <ListItem><Link to='/Upload_New_Configuration'>Upload New Configuration</Link></ListItem>
                             <ListItem><Link to='/Application_Properties'>Application Properties</Link></ListItem>
                             <ListItem><Link to='/Role_Based_Properties'>Role Based Properties</Link></ListItem>
-                            <ListItem><Link to='/User_Input'>User_Input</Link></ListItem>
-                            <ListItem><Link to='/Result_Analyses'>Result_Analyses</Link></ListItem>
-                            <ListItem><Link to='/Test_Module'>Test_Module</Link></ListItem>
-                            <ListItem><Link to='/Endpoint_Operations'>Endpoint_Operations</Link></ListItem>
-                            <ListItem><Link to='/Workflow_Modules'>Workflow_Modules</Link></ListItem>
-                            <ListItem><Link to='/Test_Group'>Test_Group</Link></ListItem>
-                            <ListItem><Link to='/Startup_Test_Group'>Startup_Test_Group</Link></ListItem>
-                            <ListItem><Link to='/Service_Policies'>Service_Policies</Link></ListItem>
-                            <ListItem><Link to='/Resource_Files'>Resource_Files</Link></ListItem>
+                            <ListItem><Link to='/User_Input'>User Input</Link></ListItem>
+                            <ListItem><Link to='/Result_Analyses'>Result Analyses</Link></ListItem>
+                            <ListItem><Link to='/Test_Module'>Test Module</Link></ListItem>
+                            <ListItem><Link to='/Endpoint_Operations'>Endpoint Operations</Link></ListItem>
+                            <ListItem><Link to='/Workflow_Modules'>Workflow Modules</Link></ListItem>
+                            <ListItem><Link to='/Test_Group'>Test Group</Link></ListItem>
+                            <ListItem><Link to='/Startup_Test_Group'>Startup Test Group</Link></ListItem>
+                            <ListItem><Link to='/Service_Policies'>Service Policies</Link></ListItem>
+                            <ListItem><Link to='/Resource_Files'>Resource Files</Link></ListItem>
                             <ListItem><Link to='/DSAs'>Extensions / DSAs</Link></ListItem>
                           </List>
                         </Collapse>
@@ -213,8 +219,8 @@ export class Sidebar extends Component {
                         <ListItem><Link to="Schedules">Schedules</Link></ListItem>
                       </List>
                     </Collapse>
-                    <ListItem onClick={this.handleClick.bind(this, 'workflowBuilder')}><Link to='/Workflow'>Workflow Builder</Link></ListItem>
-                    <Collapse in={this.state.workflowBuilder} className="collapse">
+                    <ListItem onClick={this.handleClick.bind(this, 'smp19workflowBuilder')}><Link to='/Workflow'>Workflow Builder</Link></ListItem>
+                    <Collapse in={this.state.smp19workflowBuilder} className="collapse">
                       <List>
                         <ListItem><Link to="/Business_Process">Business Process Workflow</Link></ListItem>
                         <ListItem><Link to="/Interactive_Procerss">Interactive Workflow</Link></ListItem>

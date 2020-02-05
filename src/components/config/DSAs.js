@@ -6,6 +6,7 @@ export class DSAs extends Component {
     render() {
         return (
             <div id="DSAs">
+            <div className="DSA">
                 <h3>Extensions / DSAs</h3>
                 <p>On the Application -> Extensions / DSAs interface, you can manage the SMP extensions and DSAs that have been uploaded to the database.</p>
                 <h4>Extensions:</h4>
@@ -19,6 +20,7 @@ export class DSAs extends Component {
                 </ul>
 
                 <img src={DSA}/>
+                </div>
             </div>
         )
     }

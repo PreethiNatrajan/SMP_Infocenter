@@ -7,6 +7,7 @@ export class Model extends Component {
     render() {
         return (
             <div id="Model">
+            <div className="Model">
             <h2>Model:</h2>
                 <p>A model is an abstract representation that defines an application configuration, which is the IT infrastructure (including hardware and software components, relationships and dependencies) of a mission-critical application or business process.</p>
                 <img src={ModelBuilder1}></img>
@@ -19,6 +20,7 @@ export class Model extends Component {
                 <li>Capabilities that define how to retrieve data during discovery. Capabilities are bound to components to define the data source protocols used to retrieve data during discovery.</li>
                 <li>Properties and the discovery scripts used to find their values.</li>
                 </ul>
+                </div>
             </div>
         )
     }

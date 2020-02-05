@@ -44,14 +44,15 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-.Overlay{
+/* .Overlay{
   margin-top: 0.5cm;
   width: 1100px;
-}
-.Model{
-  margin-top: 0.5cm;
-  width: 1100px;
-}
+} */
+/* .Model{
+  /* margin-top: 0.5cm; */
+  
+  /* width: 1100px; 
+} */
 /* .Overlay img{
   width: 900px;
 } */
@@ -86,7 +87,7 @@ img{
 }
 h1,h2,h3,h4,h5,h6{
   margin-left: 0.5cm;
-  color: ;
+  
 }
 
 .nav_bar{
@@ -94,7 +95,13 @@ h1,h2,h3,h4,h5,h6{
   top: 0;
   left: 0;
   width: 100%;
-  background-image: url("components\images\image3.jpg");
+ height: 80px;
+  background-color: rgb(14, 1, 37);
+  /* background-image: url("components\images\image3.jpg"); */
+}
+.SideNav{
+  height: 100%;
+  margin-left: 0;
 }
 
 .navUlStyle{
@@ -104,7 +111,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .logo a{
   text-decoration: none;
-  color: white;
+  color: rgb(235, 217, 217);
   font-size: 1cm;
   font-weight: bold;
  
@@ -173,19 +180,14 @@ h1,h2,h3,h4,h5,h6{
 .SideBar {
   max-height: 100%;
   overflow-y: auto;
-  
+  /* margin-top: 1cm; */
   list-style-type: none;
   text-decoration: none;
 
   
 }
 
-.SideBar Link:link{
-  
-  list-style-type: none;
-  text-decoration: none;
-  
-}
+
 .SideBar Link:visited{
   list-style-type: none;
   text-decoration: none;
@@ -206,9 +208,9 @@ h1,h2,h3,h4,h5,h6{
   list-style-type: none;
   text-decoration: none;
   top: 1cm;
+ margin-top: 0.5cm;
  
-  height: 100%;
-  display: flex;
+ 
 }
 .SideBar a{
   color: black;
@@ -222,9 +224,9 @@ h1,h2,h3,h4,h5,h6{
   list-style-type: none;
   text-decoration: none;
 }
-.SMP7{
+/* .SMP7{
   left: 10cm;
-}
+} */
 
 .root{
   top: 1cm;
@@ -236,23 +238,25 @@ h1,h2,h3,h4,h5,h6{
   
 }
 
-.sample{
+.sample {
   display: flex;
-  margin-top: 15px;
-}
+  margin-top: 45px;
+  overflow-y: auto;
+  height: auto;
+  max-height: 100vh;
+  }
 .home{
   /* margin-left: 10cm; */
   padding: 1cm;
   display: block;
   width: 100%;
+  height: 100%;
   
 }
-#Config_Manager{
+/* #Config_Manager{
   margin-top: 1.5cm;
-}
-#Model{
-  float: none;
-}
+} */
+
 /* #Overlay{
   float: none;
 } */
@@ -260,30 +264,29 @@ h1,h2,h3,h4,h5,h6{
   display: flex;
 }
 
-#Components{
-  float: none;
+.Bot ul{
+ margin-left: 0.5cm;
 }
-#OptionSets{
-  float: none;
+.Config ul{
+  margin-left: 0.5cm;
 }
-#Relationships{
-  float: none;
+.CSC ul{
+  margin-left: 0.5cm;
 }
-#ModelTemplates{
-  float: none;
+.Model ul{
+  margin-left: 0.5cm;
 }
-#PropertyTemplates{
-  float:none;
+.Overlay ul{
+  margin-left: 0.5cm;
 }
-#Checks{
-  float: none;
+.SMP7 ul{
+  margin-left: 0.5cm;
 }
-#Actions{
-  float: none;
+.SMP18 ul{
+  margin-left: 0.5cm;
 }
-#Global{
-  float:none;
-
+.SMP19 ul{
+  margin-left: 0.5cm;
 }
 #Upload_New_Configuration{
   float: none;

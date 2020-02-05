@@ -5,9 +5,11 @@ export class Service_Policies extends Component {
     render() {
         return (
             <div id="Service_Policies">
+            <div className="Service">
                 <h3>Service Policies</h3>
                 <p>A service policy is a behavior triggered by an event, rather than manually started by a human. You can use the Service Policies section of the application to map service policies to specific actions which trigger them.</p>
-                <img src={Service}/>   
+                <img src={Service}/> 
+                </div>  
             </div>
         )
     }

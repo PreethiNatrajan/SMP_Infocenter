@@ -14,6 +14,7 @@ export class ConfigManager extends Component {
     render() {
         return (
             <div id="Config_Manager">
+            <div className="Config">
                 <h1>Configuration Manager</h1>
                 <p>SMP configuration manager helps you to configure your model and overlay and make it available to CSC and Workflows.</p>
                 <p>The Configuration manager will looks like,</p>
@@ -21,16 +22,16 @@ export class ConfigManager extends Component {
                 <p>The Content in Configuration Managers are,</p>
                 
                 
-               {/* <ul>
-                <li><Link to={'/Application_Config'} className="nav-link"> Application Configuration </Link></li>
-                <li><Link to={'/Envi_Config'} className="nav-link"> Environment Configuration </Link></li>
-                <li><Link to={'/Version_Manager'} className="nav-link"> Version Manager </Link></li>
-                <li><Link to={'/CSC_Config'} className="nav-link"> CSC Configuration </Link></li>
-                <li><Link to={'/KMP'} className="nav-link"> KMP </Link></li>
-                <li><Link to={'/Users'} className="nav-link"> Users </Link></li>
-                <li><Link to={'/Schedules'} className="nav-link"> Schedules </Link></li>
+                <ul>
+                <li>Application Configuration </li>
+                <li> Environment Configuration </li>
+                <li> Version Manager </li>
+                <li> CSC Configuration </li>
+                <li> KMP </li>
+                <li> Users </li>
+                <li> Schedules </li>
                 </ul>
-                <Switch>
+                {/*<Switch>
               <Route exact path='/Application_Config' component={Application_Config} />
               <Route exact path='/Envi_Config' component={Envi_Config} />
               <Route exact path='/Version_Manager' component={Version_Manager} />
@@ -39,7 +40,7 @@ export class ConfigManager extends Component {
               <Route exact path='/Users' component={Users} />
               <Route exact path='/Schedules' component={Schedules} />
                </Switch>*/}
-              
+               </div>
              
             </div>
         )

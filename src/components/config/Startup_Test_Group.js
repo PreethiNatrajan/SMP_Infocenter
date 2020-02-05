@@ -5,6 +5,7 @@ export class Startup_Test_Group extends Component {
     render() {
         return (
             <div id="Startup_Test_Group">
+            <div className="Startup">
                 <h3>Startup Test Group</h3>
                 <p>A startup test group is a test group slated for automatic execution at session creation in an SMP-based console (for example, the Customer Service Console).</p>
                 
@@ -15,6 +16,7 @@ export class Startup_Test_Group extends Component {
                 <li>Test modules that return results helpful in most SMP sessions for the applicable user type<p>For example: checks on outages, account status, and overall service quality</p></li>
 
                 </ul>
+                </div>
             </div>
         )
     }

@@ -5,6 +5,7 @@ export class BotBuilder extends Component {
     render() {
         return (
             <div id="BotBuilder">
+            <div className="Bot">
                 <h1>Bot Builder</h1>
                 <p>The Bot Builder is a UI in the MAC (Management Applications Console) which allows a developer to map the intents created in NLP (Natural Language Processor) with the Actions configured in the Interactive Bot Engine. During a Bot conversation (via Facebook™ chat for text and Alexa™ / Google Home™ for voice), the bot engine communicates with the applicable NLP to determine which intent to use per utterance, and decides the action to take for an intent (for example, run an interactive workflow or redirect to a webhook application based on the intent selected).</p>
                 <h3>Bot:</h3>
@@ -40,7 +41,7 @@ export class BotBuilder extends Component {
                 </li>
                 <li>Status bar</li>
                 </ul>
-
+                </div>
             </div>
         )
     }

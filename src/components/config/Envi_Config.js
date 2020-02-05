@@ -6,6 +6,7 @@ export class Envi_Config extends Component {
     render() {
         return (
             <div id="Envi_Config">
+            <div className="Envi">
                 <h2>Environmental Configuration</h2>
                 <p>From the Environment tab, the settings you publish take effect immediately. The environment configuration is not versioned, and most of its settings cannot be imported or exported with the exception of environment properties.</p>
                 <img src={Envi}/>
@@ -25,6 +26,7 @@ export class Envi_Config extends Component {
                 <li>The user name to access a specific database.</li>
                 <li>The name or location of a data source.</li>
                 </ul>
+                </div>
             </div>
         )
     }

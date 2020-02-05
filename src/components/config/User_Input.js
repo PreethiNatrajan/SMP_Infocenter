@@ -5,6 +5,7 @@ export class User_Input extends Component {
     render() {
         return (
             <div id="User_Input">
+            <div className="User_Input">
                 <h3>User Input</h3>
                 <p>To open the User-Input Definitions window, click User-Input Definitions.</p>
                 <img src={User}/>
@@ -21,6 +22,7 @@ export class User_Input extends Component {
                 <p>During a given SMP session, a non-shared user input is always requested. The value provided is not cached for re-use.</p>
                 </li>
                 </ul>
+                </div>
             </div>
         )
     }

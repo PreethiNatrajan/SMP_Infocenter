@@ -6,6 +6,7 @@ export class Upload_New_Configuration extends Component {
     render() {
         return (
             <div id="Upload_New_Configuration">
+            <div className="Upload">
                 <h3>Upload New Configuration</h3>
                 <p>     The prerequisite is a .zip file containing the configuration data for upload. Often the .zip file is created by downloading the active config from another installation.</p>
                 <h4>Plan Upload:</h4>
@@ -36,6 +37,7 @@ export class Upload_New_Configuration extends Component {
                 <p>During the automated commit process, details return in expanded sections to indicate progress made. As commits for a section complete, the section is collapsed except when errors occur, in which case the section remains expanded. Most sections represent one of the directories included in the .zip file. For a description per section, see the table below.</p>
                 <p>After the commit process completes for all sections, the final overall status is displayed at the top of the page. When Failed is displayed, review section details to determine which items were not saved to the database.</p>
                 <p>When ready to return to other tasks, click the Back to Application link at the bottom of the page.</p>
+                </div>
             </div>
         )
     }

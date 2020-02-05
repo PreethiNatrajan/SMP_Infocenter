@@ -62,9 +62,12 @@ class Home extends Component {
             <li><Link to={'/SMP18'}>SMP 18</Link></li>
             <li><Link to={'/SMP19'}>SMP 19</Link></li>
           </ul> */}
+          <div className="SideNav">
           <Sidebar />
+          </div>
         </Grid>
         <Grid item md={9} lg={9} xl={10}>
+        <div className="Common">
          <Switch>
             <Route path="/SMP" render={() => (
               <div>
@@ -77,6 +80,11 @@ class Home extends Component {
                 <li>Integrated tools in which IT developers and business analysts author, publish, and execute service troubleshooting and management logic.</li>
                 </ul>
                 <p>The versions of SMP are,</p>
+                <ul>
+                <li>SMP 7</li>
+                <li>SMP 18</li>
+                <li>SMP 19</li>
+                </ul>
               </div> 
             )}/>
           <Route path='/SMP7' component={SMP7} />
@@ -142,11 +150,12 @@ class Home extends Component {
               <Route path='/Interactive_Procerss' component={Interactive_Procerss} />
 
           </Switch>
+          </div>  
+  
         </Grid>
       </Grid>
           
-          
-  </div>
+      </div>
          
     );
   }

@@ -4,6 +4,7 @@ export class Role_Based_Properties extends Component {
     render() {
         return (
             <div id="Role_Based_Properties">
+            <div className="Role_Based">
                 <h3>Role Based Properties</h3>
                 <p>To open the Role-Based Properties window, click Role-Based Properties.</p>
                 <img src={Role}></img>
@@ -12,7 +13,7 @@ export class Role_Based_Properties extends Component {
                 <p>Role-based property configurations are not accessible through a web service, which is unlike the configurations for test groups, test modules, and endpoint operations; those are accessible from applicable web services provided with SMP.</p>
                 <h4>Example:</h4>
                 <p>Example. To determine which set of resource links to surface in a help desk application, create two role-based properties, Tier1Links and Tier2Links. The hypothetical properties both include a user role named Tier1role, while the Tier2Links property only includes the user role Tier2role. Given all of the resource links are mapped to the Tier2Links property, a user with the Tier2role would see the full set of resource links; however, a user with the Tier1role would see a subset of the resource links, including only those mapped to the Tier1Links property.</p>
-                
+                </div>
             </div>
         )
     }

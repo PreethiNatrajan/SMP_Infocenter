@@ -15,7 +15,7 @@ export class OverlayBuilder extends Component {
                 <h1>OVERLAY BUILDER</h1>
                 <p>Overlay Builder is a Motive desktop application which enables you to create overlays that help users address issues within their application environment. Overlays are available within the Motive model-based web applications to users who support application environments.</p>
                 <p>Overlay Builder will look like,</p>
-                <img width={1100} src={OverlayBuild}/>
+                <img width={1000} src={OverlayBuild}/>
                 <h2>Overlays</h2>
                 <p>Overlays are well suited to storing the business logic of an application. An overlay draws its data from a model, and many overlays can use the same model. By storing your business logic in an overlay, you keep it separate from your model of your systems, so that models and business logic can be changed and managed separately.</p>
                 <p>As a user of Overlay Builder, you should be a technical application expert with a broad and deep understanding of the business and operational issues pertaining to the application. You will create and maintain the technical support processes for applications.</p>
@@ -23,10 +23,10 @@ export class OverlayBuilder extends Component {
                 <img src={OverlayFamily}/>
                 <p>Using Overlay Builder, you will create and maintain:</p>
                 <ul>
-                <li>Overlay that help users address issues with their application environment.</li>
-                <li>Checks that provide the information necessary to identify a problem.</li>
-                <li>Actions that define the operations that may be performed to address the problem.</li>
-                <li>Global that define values used by checks to store and transform data</li>
+                <li><b>Overlay</b> that help users address issues with their application environment.</li>
+                <li><b>Checks</b> that provide the information necessary to identify a problem.</li>
+                <li><b>Actions</b> that define the operations that may be performed to address the problem.</li>
+                <li><b>Global</b> that define values used by checks to store and transform data</li>
                 </ul>
                 </div>
             </div>

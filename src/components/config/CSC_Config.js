@@ -4,6 +4,7 @@ export class CSC_Config extends Component {
     render() {
         return (
             <div id="CSC_Config">
+            <div className="CSC_Config">
                 <h2>CSC Configuration</h2>
                 <p>The active configuration defines the settings applied across servers with other published content. At login, the active configuration is loaded by default.</p>
                 <img src={CSC}/>
@@ -19,7 +20,7 @@ export class CSC_Config extends Component {
                 </li>
                 <li>Add, delete, and edit .</li>
                 </ul>
-
+                </div>
             </div>
         )
     }

@@ -5,6 +5,7 @@ export class Checks extends Component {
     render() {
         return (
             <div id="Checks">
+            <div className="Checks">
                 <h2>Checks:</h2>
                 <p>A check is a business rule that analyzes a model to address a business problem. Checks are created using expressions or JavaScript code. Checks can have associated actions, which are operations that are performed after a check is evaluated during discovery (in a web application that uses the Motive™ model-based system).</p>
                 
@@ -20,6 +21,7 @@ export class Checks extends Component {
                 </ul>
                 <p>Edit check page will look like,</p>
                 <img src={Check}/>
+                </div>
             </div>
         )
     }

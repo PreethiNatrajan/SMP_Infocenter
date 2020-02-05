@@ -11,11 +11,11 @@ export class SMP19 extends Component {
     render() {
         return (
             <Router>
-            <div id="SMP7">
-            <div className="SMP7">
-            <h1>SMP 7</h1>
+            <div id="SMP19">
+            <div className="SMP19">
+            <h1>SMP 19</h1>
             <p>Service Management Platform (SMP) is a comprehensive toolset and action engine for customer experience management.</p>
-            <h3>The Content of SMP7 are,</h3>
+            <h4>The Content of SMP19 are,</h4>
             <ul>
                 <li>Configuration Manager</li>
                 <li>Workflow</li>

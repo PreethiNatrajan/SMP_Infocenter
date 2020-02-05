@@ -4,6 +4,7 @@ export class Components extends Component {
     render() {
         return (
             <div id="Components">
+            <div className="Components">
                 <h2>Components:</h2>
                 <p>A component is a logical or physical hardware or software element within an application configuration, such as a web server or the Microsoft® Windows® XP operating system. Components are created based on component types that group the components into like categories, such as Database or File Server, so that they share the same icon in the model and users can associate them easily. Components are associated with each other using relationships, which define how the components depend on one another.</p>
                 <p>Each component can contain:</p>
@@ -29,7 +30,7 @@ export class Components extends Component {
                 <li>Identify a unique name for each cluster instance.</li>
                 <li>Set the scope of each property in the cluster.</li>
                 </ul>
-                
+                </div>
             </div>
         )
     }

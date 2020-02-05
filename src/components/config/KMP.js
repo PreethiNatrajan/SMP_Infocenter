@@ -5,6 +5,7 @@ export class KMP extends Component {
     render() {
         return (
             <div id="KMP">
+            <div className="KMP">
                 <h2>KMP</h2>
                 <p>The KMP tab is reserved for deployments slated to use KMP to manage their SMP configuration assets. The tab is not displayed unless the account with which you log in includes the KMPAdministrator system role.</p>
                 <img src={KMP_Con}/>
@@ -15,6 +16,7 @@ export class KMP extends Component {
                 <li>Sync assets such that local assets in the SMP installation and remote assets in KMP become in sync</li>
                 <li>Identify local assets that are tracked against the solution checked out</li>
                 </ul>
+                </div>
             </div>
         )
     }

@@ -5,6 +5,7 @@ export class Application_Properties extends Component {
     render() {
         return (
             <div id="Application_Properties">
+            <div className="Properties">
                 <h3>Application Properties</h3>
                 <p>To open the Application Properties window, click Application Properties.</p>
                 <img src={App_Pro}></img>
@@ -14,6 +15,7 @@ export class Application_Properties extends Component {
                 <li>Acceptable Application Thresholds - threshold allowances</li>
                 <li>Custom properties - deployment-specific properties (name/value pairs) that your team creates as needed</li>
                 </ul>
+                </div>
             </div>
         )
     }

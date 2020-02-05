@@ -9,6 +9,7 @@ export class Version_Manager extends Component {
     render() {
         return (
             <div id="Version_Manager">
+            <div className="Version">
                 <h2>Version Manager</h2>
                 <p>From the Versions tab, you can upload, download, and manage configuration versions.</p>
                 <p>At login, the active configuration is loaded into the browser session. The active configuration defines the settings applied across servers with other published content (e.g., overlays, workflows).</p>
@@ -44,7 +45,7 @@ export class Version_Manager extends Component {
                 <h3>Check Server Status</h3>
                 <p>From the Versions -> Check Server Status page, confirm whether the same config version is published across servers. Keep in mind that the page lacks entries for server instances that are not currently running.</p>
                 <img src={Status}/>
-
+                </div>
             </div>
         )
     }

@@ -5,6 +5,7 @@ export class Actions extends Component {
     render() {
         return (
             <div id="Actions">
+            <div className="Actions">
                 <h2>Actions:</h2>
                 <p>An overlay action (the operation triggered when a check returns a particular value) defines an operation to be performed within or originating from a Motive™ model-based web application, based on the outcome of a check evaluation. For example, when a check fails, you could send an email to an administrator or run a command. One or more actions can be associated with each check in an overlay.</p>
                 
@@ -19,6 +20,7 @@ export class Actions extends Component {
                 </ul>
                 <p>Edit Action page will look like,</p>
                 <img src={Action}/>
+                </div>
             </div>
         )
     }

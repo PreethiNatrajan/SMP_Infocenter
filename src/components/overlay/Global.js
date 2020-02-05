@@ -4,6 +4,7 @@ export class Global extends Component {
     render() {
         return (
             <div id="Global">
+            <div className="Global">
                 <h2>Global Variable:</h2>
                 <p>A global variable is an intermediate storage container for data resulting from an evaluation. Any overlay can write data to or read data from a global variable.</p>
                 <p>You can create global variables using Overlay Builder. Within a check, you can read from or write to global variables.</p>
@@ -15,6 +16,7 @@ export class Global extends Component {
                 <li>Reading and writing global variables</li>
                 <li>Removing global variables</li>
                 </ul>
+                </div>
             </div>
         )
     }

@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import ModelBuilder from './ModelBuilder'
-import OverlayBuilder from './OverlayBuilder'
-import ConfigManager from './ConfigManager'
-import Workflow from './Workflow'
-import Css from './Css'
+// import ModelBuilder from './ModelBuilder'
+// import OverlayBuilder from './OverlayBuilder'
+// import ConfigManager from './ConfigManager'
+// import Workflow from './Workflow'
+// import Css from './Css'
 import { BrowserRouter as Router, Switch, Route, Link, Redirect } from 'react-router-dom';
 
 export class SMP7 extends Component {
